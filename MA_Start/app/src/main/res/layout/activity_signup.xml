@@ -103,6 +103,7 @@
 
 
             <Button
+                android:id="@+id/button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="SIGN UP"
@@ -112,6 +113,7 @@
                 android:layout_gravity="center"
                 android:textSize="20dp"
                 android:layout_marginTop="10dp"
+                android:onClick="main"
 
                 />
             <View
@@ -137,7 +139,7 @@
                 android:layout_height="match_parent"
                 android:orientation="horizontal"
                 android:gravity="center"
-                android:paddingBottom="10dp"
+                android:paddingBottom="15dp"
                 >
                 <ImageView
                     android:layout_width="wrap_content"
